@@ -15,10 +15,15 @@ gem 'rails_12factor', group: :production
 
 # Add bootstrap for improving look and feel
 gem 'bootstrap-sass'
+
 # Use stripe for ecommerce payments
 gem 'stripe', :git => 'https://github.com/stripe/stripe-ruby'
+
 # Figaro gem for securely managing credentials
 gem 'figaro'
+
+# Add letter opener for sending Emails in development
+gem 'letter_opener', group: :development
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.3'
